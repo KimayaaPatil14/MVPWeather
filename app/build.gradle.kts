@@ -26,15 +26,15 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
 
 dependencies {
 
-    implementation ("android.appcompt:appcompt:1.3.0")
-    implementation ("com.squareup.picasso:2.71828")
+    implementation ("androidx.appcompat:appcompat:1.7.0")
+    implementation (libs.x.x1828)
     implementation ("com.android.volley:volley:1.1.1")
     implementation ("com.google.android.gms:play-services-location:17.0.0")
 
