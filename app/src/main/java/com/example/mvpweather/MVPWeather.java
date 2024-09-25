@@ -1,13 +1,13 @@
 package com.example.mvpweather;
 
-public class WeatherRVModal {
+public class MVPWeather {
 
     private String time;
     private String temperature;
     private String windSpeed;
     private String icon;
 
-    public WeatherRVModal(String time, String temperature, String windSpeed, String icon) {
+    public MVPWeather(String time, String temperature, String windSpeed, String icon) {
         this.time = time;
         this.temperature = temperature;
         this.windSpeed = windSpeed;

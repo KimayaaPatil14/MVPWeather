@@ -4,13 +4,12 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +34,5 @@ public class MainActivity extends AppCompatActivity {
         backIV = findViewById(R.id.idIVBack);
         iconIV = findViewById(R.id.idIVIcon);
         searchIV = findViewById(R.id.idIVSearch);
-        });
+        }
     }
-}
